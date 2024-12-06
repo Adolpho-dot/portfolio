@@ -1,0 +1,106 @@
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #bdcee0;
+}
+
+p {         
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    border: 0px solid #0073e6;
+    border-radius: 10px; 
+   
+    margin-top: 0%;
+    margin: 120px auto; 
+    text-align: center; 
+
+    font-size: 18px;
+    border-top: 0px;
+    margin-top: 0;  
+    padding: 20px; 
+    
+    background-color: #d7eaff;
+    color: #000000;
+}
+
+h1 {
+    text-align: center;
+    color: #0073e6;
+}
+h2 {
+    font-size: 30px;
+    text-align: center;
+    color: #000000;
+    border-bottom: 0px;
+    margin: 0;  
+    padding: 60px;  
+}
+
+nav ul {
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+    display: flex; 
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px; 
+}
+
+
+nav ul li a {
+    text-decoration: none; 
+    color: #0073e6; 
+    font-size: 25px; 
+    font-family:'Lato', sans-serif;
+}
+
+
+nav ul li a:hover {
+    color: #000000; 
+}
+
+form-container {
+    width: 60%;
+    margin: 20px auto; /* Centraliza a div na página */
+    padding: 30px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para os campos e o botão dentro do formulário */
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+label {
+    margin: 10px 0 5px;
+}
+
+input, textarea {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+button {
+    background-color: #0073e6;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ffff;
+    color: #0073e6;
+}
