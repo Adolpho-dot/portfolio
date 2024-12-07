@@ -1,13 +1,13 @@
 body {
     font-family: 'Lato', sans-serif;
-    background-color: #bdcee0;
+    background-color: #062342;
 }
 
 p {         
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     line-height: 1.6;
-    border: 0px solid #0073e6;
+    border: 0px solid #0465c6;
     border-radius: 10px; 
    
     margin-top: 0%;
@@ -25,9 +25,9 @@ p {
 
 h1 {
     text-align: center;
-    color: #0073e6;
+    color: #0465c6;
 }
-h2 {
+h2, h3 {
     font-size: 30px;
     text-align: center;
     color: #000000;
@@ -51,7 +51,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none; 
-    color: #0073e6; 
+    color: #0465c6; 
     font-size: 25px; 
     font-family:'Lato', sans-serif;
 }
@@ -92,7 +92,7 @@ input, textarea {
 }
 
 button {
-    background-color: #0073e6;
+    background-color: #0465c6;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -102,5 +102,5 @@ button {
 
 button:hover {
     background-color: #ffff;
-    color: #0073e6;
+    color: #0465c6;
 }
